@@ -16,6 +16,7 @@ DSL with variables, arrays, control flow, functions, and basic I/O.
 - `execute.py` - CLI entry point for running `.dsl` files
 - `transpile.py` - `.dsl` to python transpiler
 - `embed.py` - example of embedding the interpreter
+- `rd_interpreter/dumblang_interpreter.py` - initial version with handwritten lexer and recursive descent parser
 - `examples/` - curated language examples
 
 ## Running Examples
