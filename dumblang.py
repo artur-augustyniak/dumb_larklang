@@ -138,11 +138,8 @@ class DslInterpreter(Interpreter):
 
     def program(self, tree: Tree):
         # register user-defined functions
-        main_func = None
         for child in tree.children:
             if isinstance(child, Tree) and child.data == "function":
-                if child.children[0].value == "main":
-                    main_func = child
                 self.visit(child)
         # run main
         for child in tree.children:

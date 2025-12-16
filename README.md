@@ -12,10 +12,11 @@ DSL with variables, arrays, control flow, functions, and basic I/O.
 
 ## Project Structure
 
-- `dumblang.py` – language grammar and interpreter (core runtime)
-- `execute.py` – CLI entry point for running `.dsl` files
-- `embed.py` – example of embedding the interpreter
-- `examples/` – curated language examples
+- `dumblang.py` - language grammar and interpreter (core runtime)
+- `execute.py` - CLI entry point for running `.dsl` files
+- `transpile.py` - `.dsl` to python transpiler
+- `embed.py` - example of embedding the interpreter
+- `examples/` - curated language examples
 
 ## Running Examples
 
@@ -26,10 +27,11 @@ python execute.py examples/intro_basics.dsl
 ## Examples Overview
 
 - `intro_basics.dsl` – syntax, variables, expressions
-- `numeric_operations.dsl` – arithmetic
-- `array_operations.dsl` – arrays and indexing
-- `sorting_bubble.dsl` – bubble sort implementation
-- `full_language_demo.dsl` – combined language features
+- `numeric_operations.dsl` - arithmetic
+- `array_operations.dsl` - arrays and indexing
+- `sorting_bubble.dsl` - bubble sort implementation
+- `full_language_demo.dsl` - combined language features
+- `babylonian_method.dsl` - sqrt()
 
 ## License
 
